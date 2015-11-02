@@ -39,6 +39,7 @@ public class IotdHandler extends DefaultHandler {
             XMLReader reader = parser.getXMLReader();
             reader.setContentHandler(this);
             InputStream inputStream = new URL(url).openStream();
+            description.delete(0, description.length());
             reader.parse(new InputSource(inputStream));
         } catch (Exception e) {
             e.printStackTrace();
