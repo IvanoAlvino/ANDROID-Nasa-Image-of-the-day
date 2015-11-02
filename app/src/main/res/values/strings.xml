@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Nasa IOTD</string>
+
+    <string name="title">Space Selfie</string>
+    <string name="date">Sun, 2 Nov 2015 1:30 CET+1:00</string>
+    <string name="description">prova</string>
+    <string name="action_settings">Settings</string>
+</resources>
