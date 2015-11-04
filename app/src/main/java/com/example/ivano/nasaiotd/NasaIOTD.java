@@ -50,7 +50,7 @@ public class NasaIOTD extends AppCompatActivity {
         ImageView imageView = (ImageView) findViewById(R.id.imageView);
         imageView.setImageBitmap(this.image);
 
-        TextView descriptionView = (TextView) findViewById(R.id.imageDescripyion);
+        TextView descriptionView = (TextView) findViewById(R.id.imageDescription);
         descriptionView.setText(description);
 
         setTitle("");

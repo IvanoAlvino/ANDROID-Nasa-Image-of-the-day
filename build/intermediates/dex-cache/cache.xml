@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/ivano/Desktop/NasaIOTD/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jar="/Users/ivano/GitHub_Repositories/ANDROID-Nasa-Image-of-the-day/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/ivano/Desktop/NasaIOTD/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-f67e01ca5cfeeb4a6cfa2555aabd8df0f0ac1e14.jar" />
-    </item>
-    <item
-        jar="/Users/ivano/Desktop/NasaIOTD/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/ivano/Desktop/NasaIOTD/app/build/intermediates/pre-dexed/debug/classes-d0d6a60baa2d9f70b2cb459890df0f57161216b0.jar" />
-    </item>
-    <item
-        jar="/Users/ivano/Desktop/NasaIOTD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/ivano/Desktop/NasaIOTD/app/build/intermediates/pre-dexed/debug/classes-4fba1f9a340275cc8e7a00d5a550c26aa85890d3.jar" />
+        <dex dex="/Users/ivano/GitHub_Repositories/ANDROID-Nasa-Image-of-the-day/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-671b91d6e8091e47f0b873185c82871e45a119a6.jar" />
     </item>
     <item
         jar="/Users/ivano/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/ivano/Desktop/NasaIOTD/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-3f4850a4677062a75e2eb3ef23727bc23626af71.jar" />
+        <dex dex="/Users/ivano/GitHub_Repositories/ANDROID-Nasa-Image-of-the-day/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-3f4850a4677062a75e2eb3ef23727bc23626af71.jar" />
+    </item>
+    <item
+        jar="/Users/ivano/GitHub_Repositories/ANDROID-Nasa-Image-of-the-day/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/ivano/GitHub_Repositories/ANDROID-Nasa-Image-of-the-day/app/build/intermediates/pre-dexed/debug/classes-779b9017c5a3d83366ef6a25f45eac8169efbbd1.jar" />
+    </item>
+    <item
+        jar="/Users/ivano/GitHub_Repositories/ANDROID-Nasa-Image-of-the-day/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/ivano/GitHub_Repositories/ANDROID-Nasa-Image-of-the-day/app/build/intermediates/pre-dexed/debug/classes-a900ab50f44cdf5220bbcb42281caea2ae31486f.jar" />
     </item>
 
 </items>

@@ -31,7 +31,6 @@ public class IotdHandler extends DefaultHandler {
     private String date = null;
     private String imageUrl = null;
 
-
     public void processFeed() {
         try {
             SAXParserFactory factory = SAXParserFactory.newInstance();
@@ -53,13 +52,19 @@ public class IotdHandler extends DefaultHandler {
             connection.setDoInput(true);
             connection.connect();
             InputStream input = connection.getInputStream();
-            Bitmap bitmap = BitmapFactory.decodeStream(input);
+
+            // scale bitmap
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inSampleSize = 4;
+
+            Bitmap bitmap = BitmapFactory.decodeStream(input, null, options);
             input.close();
             return bitmap;
         } catch (IOException ioe) {
             return null;
         }
     }
+
 
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
 
